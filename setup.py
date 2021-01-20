@@ -1,7 +1,7 @@
 import setuptools
 
 setuptools.setup(
-    name="example-pkg-jan_ruettinger", # Replace with your own username
+    name="demo-pkg-jan_ruettinger", # Replace with your own username
     version="0.0.1",
     author="Jan Ruettinger",
     author_email="author@example.com",
