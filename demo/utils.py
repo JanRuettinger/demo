@@ -106,10 +106,10 @@ def get_data_config(model_name, model):
 
 
 
-def prepare_loader(self, data_path, data_config):
+def prepare_loader(data_path, data_config):
     """Prepare validation data-loader."""
     root_data_path = Path(data_path)
-    img_path = root_data_path / "validation"
+    img_path = root_data_path / "images"
     label_path = root_data_path / "validation_labels.json"
 
     dataset = OpenImagesDataset(img_path, label_path, num_classes=7178)
