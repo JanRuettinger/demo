@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name="demo-pkg-jan_ruettinger", # Replace with your own username
-    version="0.0.1",
+    version="0.0.2",
     author="Jan Ruettinger",
     author_email="author@example.com",
     description="A package to load models and datasets for a demo",

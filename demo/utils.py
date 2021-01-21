@@ -51,10 +51,8 @@ class OpenImagesDataset(Dataset):
     def __init__(self, image_dir_path, data_label_path,num_classes):
         """
         Args:
-            mode (string): Specifies if the dataset should is a train/validation/test dataset. Possible values: "train", "validation", "test"
             data_label_path (string): Path to json file containing information about dataset (image_id, labels)
             image_dir_path (string): Path to directory with images.
-            data_augmentatio (boolean, optional): Specifies if data augmentation should be used or not
             num_classes (int, optional): Number of classes
         """
         try:
